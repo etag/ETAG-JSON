@@ -9,6 +9,6 @@ ETAG reader metadata is extensible (tags can be added as needed) but should cont
 * `location` is represented as a [GeoJSON](http://geojson.org/geojson-spec.html) fragment describing the location, most typically `location: { type: Point, coodrinates: [0,0] }`
 
 
-  { type: "ETAGMetadata",
+   { type: "ETAGMetadata",
     id: "2fb767b0-06ba-11e4-9191-0800200c9a66",
     location: { type: Point, coordinates: [ 0 , 0 ] }
