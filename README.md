@@ -12,10 +12,9 @@ ETAG reader metadata is extensible (tags can be added as needed) but should cont
    { type: "ETAGMetadata",
     id: "2fb767b0-06ba-11e4-9191-0800200c9a66",
     location: { type: Point, coordinates: [ 0 , 0 ] }
-    
-    
    [
-           { timestamp: "2015-01-02T110000Z", reader_url: "http://<something>/reader/2fb767b0-06ba-11e4-9191-0800200c9a66", tag_id: "someid", FIXME} 
+      { timestamp: "2015-01-02T110000Z",  tag_id: "2fb767", FIXME},
+      { timestamp: "2015-01-02T120000Z",  tag_id: "2fb767", FIXME}
       ]
       
    }
