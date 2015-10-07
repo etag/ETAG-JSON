@@ -16,8 +16,18 @@ ETAG reader metadata is extensible (tags can be added as needed) but should cont
     
    [
            { timestamp: "2015-01-02T110000Z", reader_url: "http://<something>/reader/2fb767b0-06ba-11e4-9191-0800200c9a66", tag_id: "someid", FIXME} 
-      
       ]
       
    }
       
+
+
+## Reader ID 
+* The reader ID should be string of 8 characters upper and lowercase ascii
+* We should have a method to generate Reader IDs for boards that are already deployed.
+* When we begin making our own new boards they should have an pre-set ID.
+
+
+## Accessories
+* They will not be in the schema until we have a new board design.
+
